@@ -8,14 +8,14 @@ pets[petsLength] = "Lizard"
 console.log(`The index is 2 and the animal is ${pets[2]}`)
 
 
-/*let kitchenTools = ["orange peeler","red wine stopper","dragon wine stopper","blue clippy"]
-kitchenTools.push = ["Yellow Corner"]
+let kitchenTools = ["orange peeler","red wine stopper","dragon wine stopper","blue clippy"]
+/*kitchenTools.push = ["Yellow Corner"] */
 let lengthKitchenTools = kitchenTools.length
 kitchenTools[lengthKitchenTools] = "yellow corner"
 
-Console.log(`Ascending Order: ${kitchenTools.sort()}`)
-console.log(`Reverse order: ${pets.sort().reverse()}`)
-*/
+console.log(`Ascending Order: ${kitchenTools.sort()}`)
+console.log(`Reverse order: ${kitchenTools.sort().reverse()}`)
+
 
 let petAge = [27,2,5]
 let animal = prompt("Enter one of these animals: Horse, Bird, or Lizard")
